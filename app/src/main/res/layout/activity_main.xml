@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#754CAF50"
+    android:backgroundTint="@color/purple_200"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnRegistrarse"
+        android:layout_width="320dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="132dp"
+        android:onClick="abrirRegistrar"
+        android:text="Regístrate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="125dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="56dp"
+        android:onClick="abrirSesion"
+        android:text="Iniciar Sesión"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistrarse"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="164dp"
+        android:layout_height="29dp"
+        android:text="¿Ya tienes una cuenta?"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnIniciarSesion"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistrarse"
+        app:layout_constraintVertical_bias="0.423" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="337dp"
+        android:layout_height="332dp"
+        android:fontFamily="sans-serif"
+        android:text="“Este es el deber de nuestra generación al entrar en el siglo XXI: la solidaridad con los débiles, los perseguidos, los abandonados, los enfermos y los desesperados. Esto expresado por el deseo de dar un sentido noble y humanizador a una comunidad en la que todos los miembros se definan a sí mismos, no por su propia identidad, sino por la de los demás.” / Elie Wiesel"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegistrarse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnColaborApp" />
+
+    <Button
+        android:id="@+id/btnEjemplos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="abrirEjemplos"
+        android:text="E"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/btnColaborApp"
+        android:layout_width="130dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="16dp"
+        android:onClick="MenuPrincipal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

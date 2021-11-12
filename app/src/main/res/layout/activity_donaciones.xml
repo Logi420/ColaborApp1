@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#754CAF50"
+    android:backgroundTint="@color/purple_200"
+    tools:context=".Donaciones">
+
+    <ImageButton
+        android:id="@+id/btnColaborApp2"
+        android:layout_width="130dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="16dp"
+        android:onClick="MenuPrincipal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/icon" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="126dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="160dp"
+        android:contentDescription="@string/IB"
+        android:onClick="BtnDonacionAlimento"
+        android:scaleType="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/alimentosnoperecederos" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="126dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="160dp"
+        android:contentDescription="@string/IB"
+        android:onClick="BtnDonacionDinero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/dinerodonacion" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="126dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/IB"
+        android:onClick="BtnDonacionRopa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:srcCompat="@mipmap/ropadonacion" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="126dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/IB"
+        android:onClick="BtnDonacionJuguetes"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toEndOf="@+id/imageButton6"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:srcCompat="@mipmap/donarjuguetes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
