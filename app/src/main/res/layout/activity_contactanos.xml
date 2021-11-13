@@ -80,4 +80,20 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
         app:layout_constraintVertical_bias="0.511" />
 
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="261dp"
+        android:layout_height="123dp"
+        android:layout_marginBottom="84dp"
+        android:text="Integrantes: Diego Felipe Parra - Ivan Gachancipa - Diego Castillo Vega"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton3"
+        app:layout_constraintVertical_bias="0.448" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
