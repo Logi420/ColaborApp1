@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#754CAF50"
-    android:backgroundTint="@color/purple_200"
+    android:backgroundTint="@color/material_on_background_disabled"
     tools:context=".Login">
 
     <EditText

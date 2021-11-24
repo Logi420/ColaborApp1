@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#754CAF50"
-    android:backgroundTint="@color/purple_200"
+    android:backgroundTint="@color/material_on_background_disabled"
     tools:context=".Registrarse">
 
     <ImageButton
@@ -22,10 +22,11 @@
         app:srcCompat="@mipmap/icon" />
 
     <Button
-        android:id="@+id/btnRegresar"
+        android:id="@+id/btnRegistrar"
         android:layout_width="279dp"
         android:layout_height="56dp"
         android:layout_marginTop="20dp"
+        android:onClick="MenuLogin"
         android:text="Regístrate ahora"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,7 +66,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRegresar" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistrar" />
 
     <TextView
         android:id="@+id/textView8"
@@ -96,7 +97,7 @@
         android:id="@+id/txt_nombre"
         android:layout_width="353dp"
         android:layout_height="49dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Nombre"
         android:inputType="textPersonName"

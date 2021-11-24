@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#754CAF50"
-    android:backgroundTint="@color/purple_200"
+    android:backgroundTint="@color/material_on_background_disabled"
     tools:context=".Contactanos">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -85,7 +85,7 @@
         android:layout_width="261dp"
         android:layout_height="123dp"
         android:layout_marginBottom="84dp"
-        android:text="Integrantes: Diego Felipe Parra - Ivan Gachancipa - Diego Castillo Vega"
+        android:text="Desarrollado por: Diego Felipe Parra - Ivan Gachancipa - Diego Castillo Vega - Carlos Arturo Arguello"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold"

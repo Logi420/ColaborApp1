@@ -15,6 +15,7 @@ public class Registrarse extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrarse);
         Button btn = (Button) findViewById(R.id.btnContactanos);
+        Button btn1 = (Button) findViewById(R.id.btnRegistrar);
         ImageButton btn3;
     }
     public void abrirContactanos(View view){
@@ -26,6 +27,12 @@ public class Registrarse extends AppCompatActivity {
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }
+    public void MenuLogin(View view){
+        Intent i = new Intent(this, Login.class);
+        startActivity(i);
+
+    }
+
 
 
     /**public void volver(View view){

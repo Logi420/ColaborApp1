@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#754CAF50"
-    android:backgroundTint="@color/purple_200"
+    android:backgroundTint="@color/material_on_background_disabled"
     tools:context=".MainActivity">
 
     <Button
@@ -56,7 +56,8 @@
         app:layout_constraintBottom_toTopOf="@+id/btnRegistrarse"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnColaborApp" />
+        app:layout_constraintTop_toBottomOf="@+id/btnColaborApp"
+        app:layout_constraintVertical_bias="0.644" />
 
     <Button
         android:id="@+id/btnEjemplos"
@@ -69,7 +70,7 @@
         app:layout_constraintHorizontal_bias="0.885"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.627" />
 
     <ImageButton
         android:id="@+id/btnColaborApp"
