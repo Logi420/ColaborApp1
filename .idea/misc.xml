@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/JulIvan/AndroidStudioProjects/MiPrimeraApp1/app/src/main/res/layout/activity_login2.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/JulIvan/AndroidStudioProjects/MiPrimeraApp1/app/src/main/res/layout/activity_main.xml" value="0.2006340579710145" />
+        <entry key="..\:/Users/JulIvan/AndroidStudioProjects/MiPrimeraApp1/app/src/main/res/layout/activity_registrarse.xml" value="0.2006340579710145" />
+        <entry key="..\:/Users/JulIvan/AndroidStudioProjects/MiPrimeraApp1/app/src/main/res/layout/menuitem.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MiPrimeraApp1/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.13119143239625167" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MiPrimeraApp1/app/src/main/res/layout-w936dp/activity_login.xml" value="0.153125" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MiPrimeraApp1/app/src/main/res/layout/activity_contactanos.xml" value="0.33" />
@@ -13,6 +17,11 @@
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MiPrimeraApp1/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MiPrimeraApp1/app/src/main/res/layout/activity_registrarse.xml" value="0.33" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MiPrimeraApp1/app/src/main/res/layout/menuitem.xml" value="0.18931159420289856" />
+        <entry key="..\:/Users/Lenovo/Downloads/Proyecto Cambios/MiPrimeraApp1/MiPrimeraApp1/app/src/main/res/layout/activity_contactanos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo/Downloads/Proyecto Cambios/MiPrimeraApp1/MiPrimeraApp1/app/src/main/res/layout/activity_donaciones.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/Downloads/Proyecto Cambios/MiPrimeraApp1/MiPrimeraApp1/app/src/main/res/layout/activity_login2.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/Downloads/Proyecto Cambios/MiPrimeraApp1/MiPrimeraApp1/app/src/main/res/layout/activity_registrarse.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/Downloads/Proyecto Cambios/MiPrimeraApp1/MiPrimeraApp1/app/src/main/res/layout/menuitem.xml" value="0.1721014492753623" />
       </map>
     </option>
   </component>

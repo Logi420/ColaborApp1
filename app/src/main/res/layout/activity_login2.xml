@@ -9,7 +9,7 @@
     tools:context=".Login">
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/edtxContraseña"
         android:layout_width="266dp"
         android:layout_height="53dp"
         android:layout_marginTop="12dp"
@@ -19,10 +19,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+        app:layout_constraintTop_toBottomOf="@+id/edtxUsuario" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/edtxUsuario"
         android:layout_width="267dp"
         android:layout_height="57dp"
         android:layout_marginTop="132dp"
@@ -43,10 +43,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+        app:layout_constraintTop_toBottomOf="@+id/edtxContraseña" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnInicioSesion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="abrirDonaciones"
